@@ -1,4 +1,4 @@
-function NoteItem({ note, onDelete }) {
+export function NoteItem({ note, onDelete }) {
   const bgColor =
     note.category === "personnelle" ? "bg-purple-50" : "bg-green-50";
   const borderColor =
@@ -19,4 +19,3 @@ function NoteItem({ note, onDelete }) {
   );
 }
 
-export default  NoteItem
