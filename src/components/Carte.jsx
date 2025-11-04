@@ -1,5 +1,5 @@
 import React from "react";
-function LiveSearch() {
+function Carte() {
   const [items] = useState([
     'React', 'JavaScript', 'TypeScript', 'HTML', 'CSS',
     'Node.js', 'Python', 'Java', 'C++', 'Tailwind CSS'
@@ -35,4 +35,4 @@ function LiveSearch() {
     </div>
   );
 }
-export default LiveSearch
+export default Carte
